@@ -7,10 +7,16 @@ class Movie {
         this.title = title;
         this.studio = studio;
         this.rating = rating;
+        if(rating==undefined) {
+        this.rating="PG"
+        }
+        else {
+        this.rating=rating;
+        }
     }
 }
 
-var film = new Movie("Casino Royale", "Eon Productions", "PG­13");
+var film = new Movie("Casino Royale", "Eon Productions", "PG13");
 console.log(film.title, film.studio, film.rating);
 
 // Q.2: Circle - Class.
