@@ -2,6 +2,7 @@
 // Q.1: Class - Movie.
 /******************************************* */
 
+
 class Movie {
     constructor(title='', studio='', rating='PG') {
         this.title = title;
