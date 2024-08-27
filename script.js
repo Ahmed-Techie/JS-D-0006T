@@ -8,6 +8,7 @@ class Car{
         return this.color;
     }
 
+    
     printcolor1(str) {
         return str+this.color;
       }
